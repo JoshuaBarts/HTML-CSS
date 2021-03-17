@@ -1,0 +1,94 @@
+ @charset "utf-8"
+ /* CSS Document */
+
+
+#container {
+	width: 80%;
+	margin: auto;
+	text-align: left;
+}
+
+header {
+	position: relative;
+	border: solid 1px black;
+	width: 100%;
+	height: 60px;
+	background-image: url(images/header1.jpg);
+	background-position: 0px 0px;
+	
+}
+
+header h1 {
+	text-align: center;
+	font-family: Times New Roman;
+	font-size: 36px;
+	color: #FF6F91;
+}
+
+nav {
+	float: left;
+	margin: 0;
+	width: 130px;
+	padding-right: 10px;
+}
+
+nav li {
+	display: block;
+	line-height: 120%
+	width: auto;
+}
+
+a.pagelink {
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: black;
+}
+
+a.pagelink:link {
+	color: blue;
+}
+
+a.pagelink:visited {
+	color: lime;
+}
+
+a.pagelink:hover {
+	color: orange;
+}
+
+a.pagelink:active {
+	color: fuchsia;
+}
+
+#middlebox {
+	top: 10px;
+	margin: 0 100px 0 140px;
+	background-color: #e8ffff;
+	
+}
+
+#middlebox .box {
+	float: left;
+	width: 45%;
+	padding: 10px;
+	text-align: center;
+	background-color: pink;
+	margin: 5px;
+	
+}
+
+#rightbox {
+	float: right;
+	padding: 0 5px 0 5px;
+	width: 75px;
+}
+
+footer {
+	background-image: url(images/footer4.jpg);
+	background-position: 0px -22px;
+	border: solid 1px black;
+	text-align: center;
+	font-weight: bold;
+	clear: both;
+}
